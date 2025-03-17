@@ -1,20 +1,20 @@
-<div class="navbar w-full bg-base-100 shadow-sm">
+<div class="nav-main navbar w-full shadow-sm">
   <div class="flex-1">
-    <a class="btn btn-ghost text-xl">Dashboard</a>
+    <button class="btn btn-ghost text-xl text-white">&#9776;</button>
   </div>
   <div class="flex gap-2">
-    <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
     <div class="dropdown dropdown-end">
-      <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar relative">
         <div class="w-10 rounded-full">
           <img
             alt="Tailwind CSS Navbar component"
             src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
         </div>
+        <span class="absolute bottom-0 right-0 block h-3 w-3 rounded-full bg-green-500 border-2 border-white"></span>
       </div>
       <ul
         tabindex="0"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        class="menu menu-sm dropdown-content bg-indigo-90 text-white rounded-box z-1 mt-3 w-52 p-2 shadow">
         <li>
           <a class="justify-between">
             Profile
@@ -27,3 +27,5 @@
     </div>
   </div>
 </div>
+
+

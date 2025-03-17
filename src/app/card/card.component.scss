@@ -1,0 +1,44 @@
+.card {
+  width: 260px;  /* Largura */
+  height: 200px; /* Altura */
+  background-color: oklch(0.704 0.04 256.788); /* Verde escuro */
+  color: black;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+
+.card-name {
+    text-align: start;
+    width: 100%;
+}
+
+.number {
+    text-align: center;
+    font-size: 24px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    margin: auto
+}
+
+.card-projects {
+    margin-top: 50px;
+}
+
+.card-projects, .card-meta {
+    text-align: start;
+    width: 100%;
+    display: flex;
+}
+
+.card-meta .number-meta {
+    margin-left: 10px;
+}

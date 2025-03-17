@@ -1,0 +1,22 @@
+.dash-main {
+    height: 100%;
+    padding: 2rem;
+    background-color: oklch(0.100 0.149 302.717);
+}
+
+.text-main {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+}
+
+.box-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+

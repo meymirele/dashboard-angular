@@ -1,0 +1,11 @@
+.main-app {
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-app .bg-dash {
+    background-color: darkblue;
+    padding: 10px;
+}

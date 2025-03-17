@@ -1,2 +1,25 @@
-<div class="bg-dark p-10">
+<div class="dash-main">
+    <h1 class="text-main">Dashboard</h1>
+    
+    <!-- Cards -->
+    <div class="box-cards">
+        <app-card [name]="'Mirele'" [cargo]="'ANL PL'" [projects]="5" [meta]="7"></app-card>
+        <app-card [name]="'Elder'" [cargo]="'ANL JR'" [projects]="5" [meta]="7"></app-card>
+        <app-card [name]="'Raphael'" [cargo]="'ANL JR'" [projects]="5" [meta]="7"></app-card>
+        <app-card [name]="'Gabriel'" [cargo]="'ANL JR'" [projects]="5" [meta]="7"></app-card>
+        <app-card [name]="'Nicholas'" [cargo]="'ANL JR'" [projects]="5" [meta]="7"></app-card>
+        <app-card [name]="'Marcelo'" [cargo]="'ANL PL'" [projects]="5" [meta]="7"></app-card>
+        <app-card [name]="'Vinicius'" [cargo]="'ANL PL'" [projects]="5" [meta]="7"></app-card>
+        <app-card [name]="'Gregorio'" [cargo]="'ANL JR'" [projects]="5" [meta]="7"></app-card>
+        <app-card [name]="'Yan'" [cargo]="'ANL Senior'" [projects]="5" [meta]="7"></app-card>
+        <app-card [name]="'Luan'" [cargo]="'ANL Senior'" [projects]="5" [meta]="7"></app-card>
+    </div>
+
+    <div>
+        <h1 class="text-white text-3xl text-center my-14 font-bold">Gráficos</h1>
+        <!-- Gráficos -->
+        <app-carrossel></app-carrossel>
+    </div>
 </div>
+
+
