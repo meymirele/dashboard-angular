@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { CarrosselComponent } from "./carrossel/carrossel.component";
 
 @Component({
   selector: 'app-root',

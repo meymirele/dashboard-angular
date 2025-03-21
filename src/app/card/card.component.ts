@@ -11,4 +11,5 @@ export class CardComponent {
   @Input() cargo:string = '' 
   @Input() projects:number = 0
   @Input() meta:number = 0 
+color: any;
 }
