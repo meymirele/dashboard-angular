@@ -1,15 +1,22 @@
-import { Component, Input} from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Router, RouterLink, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-card',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule, RouterLink], // Importa RouterModule para permitir navegação
   templateUrl: './card.component.html',
-  styleUrl: './card.component.scss'
+  styleUrls: ['./card.component.scss']
 })
 export class CardComponent {
-  @Input() name:string = ''
-  @Input() cargo:string = '' 
-  @Input() projects:number = 0
-  @Input() meta:number = 0 
-color: any;
+  @Input() id!: number;
+  @Input() name!: string;
+  @Input() cargo!: string;
+  @Input() projects!: number;
+  @Input() meta!: number;
+  @Input() color!: string;
+
+  constructor(private router: Router) {}
+
 }

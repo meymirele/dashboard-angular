@@ -1,14 +1,10 @@
-<div class="card">
-    <div class="card-name">
-      <h3>{{name}} {{cargo}}</h3>
-    </div>
-    
-    <div class="number">
-      <span>{{projects}}</span>
-    </div>
+<div class="card" [ngStyle]="{'background-color': color}">
+  <div class="card-name">
+    <h3>{{name}} - {{cargo}}</h3>
+  </div>
 
-  <div class="card-projects">
-    <span>Projetos:</span>
+  <div class="number">
+    <span>{{projects}}</span>
   </div>
 
   <div class="card-meta">
@@ -16,9 +12,11 @@
     <div>
       <span class="number-meta">{{meta}}</span>
     </div>
-    
   </div>
-  <div class="justify-end card-actions">
-    <button class="btn btn-primary">Ver cards</button>
+
+  <div class="card-actions mt-2 flex justify-center w-full">
+    <a routerLink="/card-view" class="btn text-white font-semibold py-1 px-3 text-sm rounded w-[50%]" style="background-color: #32b2cc;">
+      Projetos
+    </a>    
   </div>
 </div>

@@ -69,7 +69,7 @@
       "version": 151,
       "versionNonce": 1811230294,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1742158324509,
       "link": null,
       "locked": false,
@@ -110,10 +110,6 @@
       "isDeleted": false,
       "boundElements": [
         {
-          "id": "QQNZGqJutbCGrYNSIwD7k",
-          "type": "arrow"
-        },
-        {
           "type": "text",
           "id": "A-GADGrrJ49Hu1GGNPudJ"
         },
@@ -149,7 +145,7 @@
       "version": 59,
       "versionNonce": 1094311818,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1742158322257,
       "link": null,
       "locked": false,
@@ -225,7 +221,7 @@
       "version": 50,
       "versionNonce": 2003957974,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1742158291516,
       "link": null,
       "locked": false,
@@ -262,7 +258,7 @@
       "version": 108,
       "versionNonce": 615775190,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1742158334712,
       "link": null,
       "locked": false,
@@ -314,7 +310,7 @@
       "version": 64,
       "versionNonce": 1647692630,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1742158339294,
       "link": null,
       "locked": false,
@@ -401,7 +397,7 @@
       "version": 93,
       "versionNonce": 1346737290,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1742158430815,
       "link": null,
       "locked": false,
@@ -414,6 +410,36 @@
       "originalText": "checklist:\n- carrosel  ()\n- grafico 1 ()\n- grafico 2 ()",
       "autoResize": true,
       "lineHeight": 1.25
+    },
+    {
+      "id": "eTNyiazOZdt9SFbtj5Uca",
+      "type": "rectangle",
+      "x": 594.2192474033134,
+      "y": 584.966206331012,
+      "width": 335.14290945870533,
+      "height": 175.99997384207586,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aB",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 411870605,
+      "version": 40,
+      "versionNonce": 1285222989,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1742671448612,
+      "link": null,
+      "locked": false
     }
   ],
   "appState": {

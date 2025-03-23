@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import Chart, { ChartConfiguration, Plugin, Chart as ChartJS } from 'chart.js/auto';
 
 @Component({
@@ -6,7 +6,7 @@ import Chart, { ChartConfiguration, Plugin, Chart as ChartJS } from 'chart.js/au
   templateUrl: './bar-chart.component.html',
   styleUrls: ['./bar-chart.component.css']
 })
-export class BarChartComponent implements OnInit {
+export class BarChartComponent {
   chart: any;
 
   ngOnInit(): void {
@@ -64,10 +64,10 @@ export class BarChartComponent implements OnInit {
         maintainAspectRatio: false,
         scales: {
           x: {
-            ticks: { color: 'white' }
+            ticks: { color: 'gray' }
           },
           y: {
-            ticks: { color: 'white' }
+            ticks: { color: 'gray' }
           }
         }
       },

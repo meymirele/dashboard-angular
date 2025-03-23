@@ -1,6 +1,6 @@
 .card {
   width: 260px;  /* Largura */
-  height: 200px; /* Altura */
+  height: 190px; /* Altura */
   background-color: oklch(0.704 0.04 256.788); /* Verde escuro */
   color: black;
   border-radius: 12px;
@@ -29,16 +29,22 @@
     margin: auto
 }
 
-.card-projects {
-    margin-top: 50px;
-}
-
-.card-projects, .card-meta {
+.card-meta {
     text-align: start;
+    position: absolute;
     width: 100%;
-    display: flex;
+    bottom: 25%;
+    left: 15px;
 }
 
 .card-meta .number-meta {
     margin-left: 10px;
+}
+
+.card h3 {
+    color: white;
+}
+
+.card span {
+    color: white;
 }

@@ -1,16 +1,14 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
+  imports: [CommonModule, NavbarComponent, RouterOutlet], 
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
-  imports: [NavbarComponent, DashboardComponent] // Importando componentes standalone aqui
- // Importando componentes standalone aqui
-
+  styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'dashboard';
-}
+export class AppComponent {}
