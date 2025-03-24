@@ -1,17 +1,22 @@
 <div class="dash-main w-full h-full">
   <!-- Cards -->
   <div class="box-cards">
-    <app-card [id]="0" [name]="'Yan'" [cargo]="'ANL Senior'" [projects]="5" [meta]="7" [color]="'#FF5733'"></app-card>
-    <app-card [id]="1" [name]="'Luan'" [cargo]="'ANL Senior'" [projects]="5" [meta]="7" [color]="'#FF5733'"></app-card>
-    <app-card [id]="2" [name]="'Marcelo'" [cargo]="'ANL PL'" [projects]="5" [meta]="7" [color]="'#9C27B0'"></app-card>
-    <app-card [id]="3" [name]="'Vinicius'" [cargo]="'ANL PL'" [projects]="5" [meta]="7" [color]="'#9C27B0'"></app-card>
-    <app-card [id]="4" [name]="'Mirele'" [cargo]="'ANL PL'" [projects]="5" [meta]="7" [color]="'#9C27B0'"></app-card>
-    <app-card [id]="5" [name]="'Elder'" [cargo]="'ANL JR'" [projects]="5" [meta]="7" [color]="'#2196F3'"></app-card>
-    <app-card [id]="6" [name]="'Raphael'" [cargo]="'ANL JR'" [projects]="5" [meta]="7" [color]="'#2196F3'"></app-card>
-    <app-card [id]="7" [name]="'Gabriel'" [cargo]="'ANL JR'" [projects]="5" [meta]="7" [color]="'#2196F3'"></app-card>
-    <app-card [id]="8" [name]="'Nicholas'" [cargo]="'ANL JR'" [projects]="5" [meta]="7" [color]="'#2196F3'"></app-card>
-    <app-card [id]="9" [name]="'Gregorio'" [cargo]="'ANL JR'" [projects]="5" [meta]="7" [color]="'#2196F3'"></app-card>
+    <app-card [id]="0" [name]="'Yan'" [cargo]="'ANL Senior  💻'" [projects]="5" [meta]="7" [color]="'#FF5733'"></app-card>
+    <app-card [id]="1" [name]="'Luan'" [cargo]="'ANL Senior 🏦'" [projects]="5" [meta]="7" [color]="'#FF5733'"></app-card>
+    <app-card [id]="2" [name]="'Marcelo'" [cargo]="'ANL PL 🏦'" [projects]="5" [meta]="7" [color]="'#9C27B0'"></app-card>
+    <app-card [id]="3" [name]="'Vinicius'" [cargo]="'ANL PL 🏦'" [projects]="5" [meta]="7" [color]="'#9C27B0'"></app-card>
+    <app-card [id]="4" [name]="'Mirele'" [cargo]="'ANL PL  💻'" [projects]="5" [meta]="7" [color]="'#9C27B0'"></app-card>
+    <app-card [id]="5" [name]="'Elder'" [cargo]="'ANL JR  🛠️🧰'" [projects]="5" [meta]="7" [color]="'#2196F3'"></app-card>
+    <app-card [id]="6" [name]="'Raphael'" [cargo]="'ANL JR 🛠️🧰'" [projects]="5" [meta]="7" [color]="'#2196F3'"></app-card>
+    <app-card [id]="7" [name]="'Gabriel'" [cargo]="'ANL JR 🛠️🧰'" [projects]="5" [meta]="7" [color]="'#2196F3'"></app-card>
+    <app-card [id]="8" [name]="'Nicholas'" [cargo]="'ANL JR  🛠️🧰'" [projects]="5" [meta]="7" [color]="'#2196F3'"></app-card>
+    <app-card [id]="9" [name]="'Gregorio'" [cargo]="'ANL JR  🛠️🧰'" [projects]="5" [meta]="7" [color]="'#2196F3'"></app-card>    
   </div>
+
+ <div class="dashboard-container">
+  <app-button (refresh)="refreshCards()"></app-button> 
+</div>
+
 
   <div>
     <h1 class="text-3xl text-center my-14 font-bold dashboard-font" style="color: oklch(0.556 0 0);">

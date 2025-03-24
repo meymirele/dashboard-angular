@@ -10,6 +10,9 @@ import { Router, RouterLink, RouterModule } from '@angular/router';
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent {
+refreshCards() {
+throw new Error('Method not implemented.');
+}
   @Input() id!: number;
   @Input() name!: string;
   @Input() cargo!: string;
